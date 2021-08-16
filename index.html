@@ -22,33 +22,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-default">
-        <!-- Create the navbar -->  
-        <div class="container-fluid">
-            <div class="navbar">
-                <!-- Creates the navbar header -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-header" aria-expanded="false" aria-controls="navbar-header">
-                    <span class="sr-only">Toggle navigation</span>
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
-                    <span class="menu"> Menu</span>
-                </button> <!-- Hamburger button for smaller devices -->
-                <a class="navbar-brand" href="index.html"> <!-- Your website brand name -->
-                    <h2 class="brand"></h2>
-                </a>
-            </div>
-
-            <div id="navbar-header" class="collapse navbar-collapse text-right">
-                <!-- Links to include in navbar -->
-                <ul class="nav navbar-nav ml-auto flex-nowrap"> <!-- right justify tabs-->
-                    <!-- Unordered list for links on navbar -->
-                    <li><a href="methodology.html">Methodology</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="resources1.html">Resources</a></li>
-                </ul>
-            </div> <!-- end .navbar-collapse -->
-        </div> <!-- end .container -->
-    </nav> <!-- end navigation bar --> 
+    
 	
    <!-- Jumbotron -->
    <div class="jumbotron">
@@ -56,10 +30,44 @@
             <h2>Wisconsin</h2>
             <h3>Prescribed Fire Needs Assessment</h3>
             <br><br>
-            <p>A template methodology for performing a prescribed fire needs assessment in your state.</p>
+            <p>Objectives: <br>
+                1. Quantify Wisconsin's fire needs using the most up to date LANDFIRE model products.<br>
+            2. A template methodology for performing a prescribed fire needs assessment in your state.</p>
     </div>
   </div>
     <!-- end jumbrtron-->
+
+<!-- Create the navbar -->  
+<nav class="navbar navbar-expand-lg navbar-default">
+    <div class="container-fluid">
+        <div class="navbar">
+            <!-- Creates the navbar header -->
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-header" aria-expanded="false" aria-controls="navbar-header">
+                <span class="sr-only">Toggle navigation</span>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" /></svg>
+                <span class="menu"> Menu</span>
+            </button> <!-- Hamburger button for smaller devices -->
+            <a class="navbar-brand" href="index.html"> <!-- Your website brand name -->
+                <h2 class="brand"></h2>
+            </a>
+        </div>
+
+        <div id="navbar-header" class="collapse navbar-collapse text-center">
+            <!-- Links to include in navbar -->
+            <ul class="nav navbar-nav mx-auto flex-nowrap"> <!-- right justify tabs ml-auto--> 
+                <!-- Unordered list for links on navbar -->
+                <li><a href="#startPage">Assessment</a></li>
+                <li><a href="methodology.html">Methodology</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resources1.html">Resources</a></li>
+            </ul>
+        </div> <!-- end .navbar-collapse -->
+    </div> <!-- end .container -->
+</nav> <!-- end navigation bar --> 
+   <!-- Jumbotron -->
+<div class="row" style="height:100px;">
+</div>
 
     <!-- main web page content: map and menu -->
 	<div class="resume"> <!-- serves as white background, called resume in css -->
@@ -67,7 +75,7 @@
     <!--- Intro -->
     <div class="container-fluid"> 
         
-      <div class="row">
+      <div class="row" id="startPage">
           <div class="col-md-3 resume">
           </div>
       
@@ -82,7 +90,7 @@
 
               <p style="font-size: 16px"><b>This assessment serves as a benchmark for the conservation community to quantify the gap between current fire application and needed fire application in the State of Wisconsin.</b></p>
 
-              <p>This assessment provides an update to the 2014 Wisconsin Fire Needs Assessment <a href="http://silvis.forest.wisc.edu/wp-content/uploads/pubs/SILVIS/Hmielowski_etal_2016_EcologicalApplications.pdf">(Hmielowski et al, 2016).</a></p>
+              <p>This assessment provides an update to the 2014 Wisconsin Fire Needs Assessment <a href="http://silvis.forest.wisc.edu/wp-content/uploads/pubs/SILVIS/Hmielowski_etal_2016_EcologicalApplications.pdf">(Hmielowski et al, 2016).</a> The assessment seeks to quantify current prescribed fire needs, and offer an approach to prioritizing application of prescribed fire based on ecological benefit, feasibilty, and management effort. The fire needs assessment utilizes national-wide datasets, such that the Wisconsin fire needs assessment can be used as a template for fire needs assessments in other regions of the United States. Read our <a href="/methodology.html">methodology </a>for a step-by-step guide to performing the fire needs assessment, and to access associated scripts. </p>
 
               <p style="font-size: small;"><i>Learn more about <a href="https://prescribedfire.org/learn/why-we-burn/">why we burn</a>, and about the Wisconsin Prescribed Fire Council's mission to support burning in the State.<a href="https://prescribedfire.org/about-us/mission/"></a></i></p>  
 
@@ -98,9 +106,9 @@
 
             <div class="col-md-6 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
                 <br>
-                <h3>Putting our current needs in Context: a look at Wisconsin's historical landscape</h3>
+                <h3>Putting our current needs in context: a look at Wisconsin's historical landscape</h3>
                 <br>
-                <p>The conservation community generall accepts a goal of preserving 30% of land for conservation, to meet climate resilience and protection of critical biodiversity.<a href="https://www.nature.org/en-us/about-us/who-we-are/how-we-work/policy/saving-30-by-2030/"> (Saving 30x30)</a>  </p> 
+                <p>The conservation community generall accepts a goal of preserving 30% of land for conservation in order to meet climate resilience and protection of critical biodiversity.<a href="https://www.nature.org/en-us/about-us/who-we-are/how-we-work/policy/saving-30-by-2030/"> (see Saving 30x30)</a>  </p> 
             </div>
 
             <div class="col-md-3 resume">
