@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="maps, cartography, prescribed fire, ecological restoration, liability, Wisconsin"/>
-	<title>Prescribed Fire: What Are Other States Doing?</title>
+    <meta name="keywords" content="fire needs assessment, wildland-urban interface, wildfire, good fire, maps, cartography, prescribed fire, ecological restoration, liability, Wisconsin"/>
+	<title>Wisconsin Prescribed Fire Needs Assessment</title>
 
     <!--put your Bootstrap stylesheet links below this comment and above style.css-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -42,21 +42,21 @@
                 <!-- Links to include in navbar -->
                 <ul class="nav navbar-nav ml-auto flex-nowrap"> <!-- right justify tabs-->
                     <!-- Unordered list for links on navbar -->
+                    <li><a href="methodology.html">Methodology</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="whyburn.html">Why Burn?</a></li>
                     <li><a href="resources1.html">Resources</a></li>
                 </ul>
             </div> <!-- end .navbar-collapse -->
         </div> <!-- end .container -->
     </nav> <!-- end navigation bar --> 
 	
-  <!-- Jumbotron -->
-	<div class="jumbotron">
+   <!-- Jumbotron -->
+   <div class="jumbotron">
 		<div class="container-fluid">
-            <h2>Prescribed Fire:</h2>
-            <h3>What Are Other States Doing?</h3>
+            <h2>Wisconsin</h2>
+            <h3>Prescribed Fire Needs Assessment</h3>
             <br><br>
-            <p>A look at prescribed fire legislation and organization across the country.</p>
+            <p>A template methodology for performing a prescribed fire needs assessment in your state.</p>
     </div>
   </div>
     <!-- end jumbrtron-->
@@ -64,78 +64,254 @@
     <!-- main web page content: map and menu -->
 	<div class="resume"> <!-- serves as white background, called resume in css -->
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3" style="width: 20.833333%; flex: 0 0 20.833%; max-width: 20.833%;">  <!-- ACCORDION MENU -->
-              <ul class="accordion-menu">  <!-- ul = unordered list -->
-                <li class = "attrli" id = "FireCounci">
-                  <div class="dropdownlink">State Fire Councils
-                    <i class="fire" aria-hidden="true"></i>
-                  </div>
-                </li>
-                <li class = "attrli" id = "BurnProgra">
-                  <div class="dropdownlink"> Burn Programs
-                    <i class="fire" aria-hidden="true"></i>
-                  </div>
-                </li>
-                <li class = "attrli" id = "LiabilityL">
-                  <div class="dropdownlink">Liability Law
-                    <i class="fire" aria-hidden="true"></i>
-                  </div>
-                </li>
-                <li class = "attrli" id = "PermitRequ"> 
-                  <div class="dropdownlink">Permit Requirements
-                    <i class="fire" aria-hidden="true"></i>
-                  </div>
-                </li>
-                <li class = "attrli" id = "Time4Permi">
-                  <div class="dropdownlink"> Authorization Time
-                    <i class="fire" aria-hidden="true"></i>
-                  </div>
-                </li>
-                <li class = "attrli" id = "PermitFee">
-                  <div class="dropdownlink"> Permit Application Fee
-                    <i class="fire" aria-hidden="true"></i>
-                  </div>
-                </li>                
-                <li>
-                  <div class="dropdownlink"> Acres Burned
-                    <i class="fire" aria-hidden="true"></i>
-                  </div>
-                  <ul class="submenuItems">
-                    <li class = "attrli" id = "Acres_2017"><a href="#accordion-menu">Forestry acres burned in 2017</a></li>
-                    <li class = "attrli" id = "Acres_2018"><a href="#accordion-menu">Forestry acres burned in 2018</a></li>
-                    <li class = "attrli" id = "Acres_2019"><a href="#accordion-menu">Forestry acres burned in 2019</a></li>
-                  </ul>
-                </li> 
-                <li>
-                  <div class="dropdownlink">Trends in Forestry Acres Burned
-                    <i class="fire" aria-hidden="true"></i>
-                  </div>
-                  <ul class="submenuItems">
-                    <li class = "attrli" id = "Trend_2017"><a href="#accordion-menu">Trend in 2017 forestry acres burned</a></li>
-                    <li class = "attrli" id = "Trend_2018"><a href="#accordion-menu">Trend in 2018 forestry acres burned</a></li>
-                    <li class = "attrli" id = "Trend_2019"><a href="#accordion-menu">Trend in 2019 forestry acres burned</a></li>
-                  </ul>
-                </li> 
-              </ul>
-            </div>
-            <div class="col-md-2" style="width: 20.833333%; flex: 0 0 20.833%; max-width: 20.833%;"> <!-- LEGEND-->
-              <div class="legend"></div>   
-            </div>
-            <div class="col-md-7" > <!-- WEB MAP style="width: 62.499999%; flex: 0 0 62.499%; max-width: 62.499%;" -->
-              <div class="map"></div> 
-            </div>
+    <!--- Intro -->
+    <div class="container-fluid"> 
+        
+      <div class="row">
+          <div class="col-md-3 resume">
+          </div>
+      
+          <div class="col-md-6 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+              <br>
+              <br>
+              <h3>Quantifying our state's fire needs</h3>
+              <br>
+              <p>This assessment quantifies the state of Wisconsin’s fire “needs”, or the amount of prescribed fire needed to conserve fire-dependent natural communities in Wisconsin. </p> 
+              
+              <p> Government agencies, conservation nonprofits, private contractors, volunteer groups and private landowners all play a role in the resilience of Wisconsin’s natural lands. The intricate mix of players presents a unique challenge to implementing conservation at the scale required to meet climate resilience. Since many of Wisconsin’s natural plant communities are fire-dependent, prescribed fire is a critical component of meeting conservation goals in the future. </p>
+
+              <p style="font-size: 16px"><b>This assessment serves as a benchmark for the conservation community to quantify the gap between current fire application and needed fire application in the State of Wisconsin.</b></p>
+
+              <p>This assessment provides an update to the 2014 Wisconsin Fire Needs Assessment <a href="http://silvis.forest.wisc.edu/wp-content/uploads/pubs/SILVIS/Hmielowski_etal_2016_EcologicalApplications.pdf">(Hmielowski et al, 2016).</a></p>
+
+              <p style="font-size: small;"><i>Learn more about <a href="https://prescribedfire.org/learn/why-we-burn/">why we burn</a>, and about the Wisconsin Prescribed Fire Council's mission to support burning in the State.<a href="https://prescribedfire.org/about-us/mission/"></a></i></p>  
+
+              <br>
+          </div>
+          <div class="col-md-3 resume">
         </div>
-        <div class="row">
-          <br><br>
-        </div> 
-        <div class="container">  <!-- EMPTY BUMPER -->
-          <div class="row"></div>
+    </div>  
+  <!---- 30x30-->
+    <div class="row">
+            <div class="col-md-3 resume">
+            </div>
+
+            <div class="col-md-6 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+                <br>
+                <h3>Putting our current needs in Context: a look at Wisconsin's historical landscape</h3>
+                <br>
+                <p>The conservation community generall accepts a goal of preserving 30% of land for conservation, to meet climate resilience and protection of critical biodiversity.<a href="https://www.nature.org/en-us/about-us/who-we-are/how-we-work/policy/saving-30-by-2030/"> (Saving 30x30)</a>  </p> 
+            </div>
+
+            <div class="col-md-3 resume">
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2 resume">
+        </div>
+
+        <div class="col-md-8 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+            <img src="assets/conserve30.PNG" width="100%" height="100%" >
+            
+        </div>
+
+        <div class="col-md-2 resume">
         </div>
     </div>
-  </div>
-  <!-- end map and related content -->
+    <!---- historic BPS-->
+    <div class="row">
+        <div class="col-md-3 resume">
+        </div>
+
+        <div class="col-md-6 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+            <br><br>
+            <p>Wisconsin historically (pre-European settlement) supported over 40 diverse plant communities. </p> 
+        </div>
+
+        <div class="col-md-3 resume">
+        </div>
+        <div class="row">
+            <div class="col-md-2 resume">
+            </div>
+    
+            <div class="col-md-8 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+                <img src="assets/wiBPS.png" width="95%" >
+                
+            </div>
+    
+            <div class="col-md-2 resume">
+            </div>
+        </div>
+    </div>
+    <!----Historic fire-->
+    <div class="row">
+            <div class="col-md-3 resume">
+            </div>
+    
+            <div class="col-md-6 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+                
+                <p>Many of Wisconsin's natural communities experienced frequent fire, either by natural ignitions or anthropogenic sources. The south and west portions of the state were predominantly covered by prairie and oak savanna, where individual patches burned every 1-5 years.</p> 
+            </div>
+    
+            <div class="col-md-3 resume">
+            </div>
+            <div class="row">
+                <div class="col-md-2 resume">
+                </div>
+        
+                <div class="col-md-8 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+                    <img src="assets/wiHistmFRI.png" width= 85%  >
+                    
+                </div>
+        
+                <div class="col-md-2 resume">
+                </div>
+            </div>
+        
+    </div>
+    <!----Historic severity-->
+    <div class="row">
+        <div class="col-md-3 resume">
+        </div>
+
+        <div class="col-md-6 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+            <br><br>
+            <p>Across different community types, fire severity (i.e. fire intensity, measured as above ground biomass death), ranged greatly. </p>
+
+            <p>Forested areas experienced fires of all severities, with conifer-dominated communities more likely to experience replacement fires, and hardwood-dominated forests more likely to experience surface fires.  </p>
+            <p>The high prevalence of replacement fire in the southwest part of the state is attributed to grassland communities, where the majority of grass fuels are consumed during a burn. </p>
+            <p>Across all communities, the most commonly occurring fire type were fires of low or mixed severity, i.e. surface fuels.
+            </p>     
+        </div>
+
+        <div class="col-md-3 resume">
+        </div>
+        <div class="row">
+            <div class="col-md-2 resume">
+            </div>
+    
+            <div class="col-md-8 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+                <img src="assets/wiSev.png" width= 85%  >
+                
+            </div>
+    
+            <div class="col-md-2 resume">
+            </div>
+        </div>
+    
+    </div>
+    <!----Today's landscape-->
+    <div class="row">
+        <div class="col-md-3 resume">
+        </div>
+
+        <div class="col-md-6 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+            <br>
+                <h3>Today's landscape</h3>
+
+            <br><br>
+            <p>Wisconsin’s landscape has dramatically changed due to human pressure on the landscape including agricultural land use, logging, development and urbanization, and hydrologic modification, primarily in the last 200 years.   </p> 
+            <p>Despite these impacts, nearly 58% of Wisconsin land retains natural plant cover. Many natural communities, however, are severely degraded (deparated from historical biodiversity) due to indirect human impacts including invasive exotic species, suppression of historic fire regimes, change in hydrology, livestock grazing, and loss of diversity due to direct and indirect effects of climate change, among other impacts. Reintroduction of ecological processes, such as fire, offers one of the most effective management strategies for restoring biodiversity back to Wisconsin's natural communties.
+            </p>
+        </div>
+
+        <div class="col-md-3 resume">
+        </div>
+        <div class="row">
+            <div class="col-md-2 resume">
+            </div>
+
+            <div class="col-md-8 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+                <img src="assets/wiNow.png" width="95%" >
+                
+            </div>
+
+            <div class="col-md-2 resume">
+            </div>
+        </div>
+    </div>
+    <!----Today's fire needs-->
+    <div class="row">
+        <div class="col-md-3 resume">
+        </div>
+
+        <div class="col-md-6 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+            <br>
+                <h3>Today's fire needs</h3>
+
+            <br><br>
+            <p>Wisconsin's current fire regime estimates are mapped by associating a current natural community to the historic community it most resembles. The crosswalk process is imperfect, as some current natural communities retain little resemblance to historic communities due to degradation. These changes in composition mean that historically fire-dependent communities may include a larger proportion of fire-intolerant species (a process called mesiphication, a result of fire suppression), and in our model, the fire regime would reflect this lower dependency on fire. However, conservationists strive to <i>restore</i> natural communities to more closely resemble historical composition when the historical composition provides greater biodiversity.       </p> 
+            <p>
+            </p>
+        </div>
+
+        <div class="col-md-3 resume">
+        </div>
+        <div class="row">
+            <div class="col-md-2 resume">
+            </div>
+
+            <div class="col-md-8 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+                <img src="assets/wiFireToday.png" width="85%" >
+                
+            </div>
+
+            <div class="col-md-2 resume">
+            </div>
+        </div>
+    </div>
+    <!----Today's fire needs, quantified-->
+    <div class="row">
+        <div class="col-md-3 resume">
+        </div>
+
+        <div class="col-md-6 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+            <br>
+            <p> To maintain the current extent of natural area, we estimate over 800,000 acres burned annually.       </p> 
+            <p>
+            </p>
+        </div>
+
+        <div class="col-md-3 resume">
+        </div>
+        <div class="row">
+            <div class="col-md-2 resume">
+            </div>
+
+            <div class="col-md-8 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+                <img src="assets/annualFire.png" width="65%" >
+                
+            </div>
+
+            <div class="col-md-2 resume">
+            </div>
+        </div>
+    </div>
+    <!----Today's fire needs, quantified-->
+    <div class="row">
+        <div class="col-md-3 resume">
+        </div>
+
+        <div class="col-md-6 resume"> <!-- <div class="col-md-10 col-md-offset-1 resume"> -->
+            <br>
+            <p> Further analysis will help prioritize where to best to apply fire for maximal ecological benefit balanced with least cost and risk.  </p> 
+            <p>
+            </p>
+        </div>
+
+        <div class="col-md-3 resume">
+        </div>
+    </div>
+
+  
+<!-- NEEDS FORMATTING-->
+  <p class="credits">Webpage and assessment produced by Stacey Marion, August 2021</p> 
+              <!--<p class="credits">Content contributions from Andrea Weissgerber and Jeb Barzen, Wisconsin Prescribed Fire Council</p> 
+              <p class="credits">contact: smarion@wisc.edu</p>-->
+              <br>
+              <br>
+  
+</div>
 
   <!-- external script links -->
   <script type="text/javascript" src="lib/jquery-3.5.1.min.js"></script>

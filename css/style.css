@@ -94,20 +94,20 @@
 }
 
 .jumbotron h2 {
-    font-family: "Krona One", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 90px;
     color: rgba(241, 248, 247, 0.651);
     margin-top: -20px;
 }
 
 .jumbotron h3 {
-    font-family: "Krona One", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 60px;
     color: rgb(241, 248, 247);
 }
 .jumbotron p {
-    font-family: "Krona One";
-    text-align:right;
+    font-family: "Montserrat";
+    text-align:left;
     font-size: 28px;
     color: rgb(231, 231, 231);
 }
@@ -160,7 +160,10 @@ hr {
 }
 
 p {
-    font-size: 18px;
+    font-size: 14px;
+    word-spacing: 0.3em;
+    line-height: 170%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .sources {
     padding-left: 50pt;
@@ -172,7 +175,7 @@ p {
 }
 .credits{
     font-style:italic;
-    font-size: 15px;
+    font-size: 11px;
     letter-spacing:normal;
     color:#003a35b0;
 }
@@ -205,7 +208,7 @@ a:hover {
 body {
     font-family: "Montserrat", sans-serif;
     color: #242424;
-    background-image: url("../assets/IMG_3688crop.JPG");
+    /*background-image: url("../assets/IMG_3688crop.JPG");*/
     background-color: #cccccc;
     background-size:cover;
     background-repeat:repeat-y;
@@ -237,7 +240,7 @@ hr {
     stroke-opacity: 1.0;
 }
 table, th, td {
-    font-size: medium;
+    font-size: 12px;
     border: 1px solid rgb(161, 161, 161);
     padding: 10px;
     table-layout: fixed;
